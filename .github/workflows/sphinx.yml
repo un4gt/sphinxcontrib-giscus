@@ -1,5 +1,12 @@
 name: "Sphinx: Render docs to github page"
 
+on: push
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   build:
     name: python
