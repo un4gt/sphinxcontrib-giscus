@@ -3,7 +3,7 @@ from sphinx.application import Sphinx
 from ._config import config_values, check_config
 from ._giscus import add_giscus_script
 
-__version__ = '0.0.1'
+__version__ = '0.0.2'
 
 
 def setup(app: Sphinx):
