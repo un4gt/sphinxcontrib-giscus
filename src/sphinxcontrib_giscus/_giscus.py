@@ -22,21 +22,19 @@ def add_giscus_script(app: Sphinx, pagename, templatename, context, doctree):
 
     if 'giscus-on' in meta:
         sphinxcontrib_giscus_logger.info(f'Trying to add giscus script at {pagename}')
-        metatags = context.get('metatags', '')
-        metatags += GISCUS_SCRIPT.format(
-            app.config.data_repo,
-            app.config.data_repo_id,
-            app.config.data_category,
-            app.config.data_category_id,
-            app.config.data_mapping,
-            app.config.data_strict,
-            app.config.data_reactions_enabled,
-            app.config.data_emit_metadata,
-            app.config.data_input_position,
-            app.config.data_theme,
-            app.config.data_lang,
-            app.config.data_loading,
-            app.config.crossorigin,
-        )
-
-        context['metatags'] = metatags
+        if 'body' in context:
+            context['body'] += GISCUS_SCRIPT.format(
+                app.config.data_repo,
+                app.config.data_repo_id,
+                app.config.data_category,
+                app.config.data_category_id,
+                app.config.data_mapping,
+                app.config.data_strict,
+                app.config.data_reactions_enabled,
+                app.config.data_emit_metadata,
+                app.config.data_input_position,
+                app.config.data_theme,
+                app.config.data_lang,
+                app.config.data_loading,
+                app.config.crossorigin,
+            )
