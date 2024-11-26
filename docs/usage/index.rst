@@ -50,3 +50,5 @@ Enable giscus on a specified page
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Just add ``::giscus-on:`` into the header of the page where you want to enable giscus.
+
+If everything goes well, the Giscus comments area will be displayed at the bottom of the page.

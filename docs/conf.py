@@ -31,3 +31,5 @@ data_repo = 'un4gt/un4gt.github.io'
 data_repo_id = 'R_kgDOLqJB9g'
 data_category = 'Announcements'
 data_category_id = 'DIC_kwDOLqJB9s4CjTar'
+
+html_favicon = "sphinxcontrib-giscus.ico"

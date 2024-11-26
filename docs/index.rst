@@ -1,7 +1,7 @@
-.. sphinxcontrib-giscus documentation master file, created by
-   sphinx-quickstart on Mon Nov 25 22:32:48 2024.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. image:: _static/sphinxcontrib-giscus.png
+   :align: center
+   :alt: The sphinxcontrib-giscus logo
+   :class: logo
 
 Welcome to sphinxcontrib-giscus's documentation!
 ================================================
