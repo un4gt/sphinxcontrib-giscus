@@ -1,6 +1,6 @@
 [project]
 name = "sphinxcontrib-giscus"
-version = "0.0.2"
+version = "0.0.3"
 description = "A sphinx extension that integrate Giscus to your sphinx doc"
 authors = [
     {name = "un4gt", email = "mt3085570450@outlook.com"},
