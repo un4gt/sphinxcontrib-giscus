@@ -73,7 +73,7 @@ config_values: List[Cfg] = [
     },
     {
         'name': 'data_lang',
-        'default': 'zh_CN',
+        'default': 'zh-CN',
         'rebuild': 'html',
     },
     {
