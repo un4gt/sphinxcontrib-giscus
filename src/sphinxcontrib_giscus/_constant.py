@@ -6,6 +6,7 @@
 """
 
 GISCUS_SCRIPT = """
+<div class="giscus-container" style="margin-top: 2em; padding: 1em; border-top: 1px solid #ddd;">
 <script src="https://giscus.app/client.js"
         data-repo="{}"
         data-repo-id="{}"
@@ -22,4 +23,5 @@ GISCUS_SCRIPT = """
         crossorigin="{}"
         async>
 </script>
+</div>
 """
